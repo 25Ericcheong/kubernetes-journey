@@ -4,5 +4,6 @@ My journey to learning Kubernetes. The end goal is to deploy and maintain Kubern
 ## Topics
 - Linux 
 - Docker
-- Networking
+- Networking 
+  - [Networking Essentials](https://www.youtube.com/watch?v=SHkbPm1Wrno)
 - Kubernetes
