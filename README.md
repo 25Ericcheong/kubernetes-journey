@@ -8,6 +8,5 @@ My journey to learning Kubernetes. The end goal is to deploy and maintain Kubern
 - Networking 
   - [Networking Essentials](https://www.youtube.com/watch?v=SHkbPm1Wrno)
      - Application, Transport & Network
-     - External facing: API Gateways & Load Balancers
   - [Kubernetes Networking](https://www.youtube.com/watch?v=J8jAzqbXxjE)
 - Kubernetes
