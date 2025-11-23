@@ -36,3 +36,11 @@ ls -la /etc | tee etc_listing.txt | grep "conf"
 # Command used to format content and merges each content line with delimiter ' ' and outputs to command line
 # Similar to cat
 paste -d ' ' -s sample.txt
+
+
+# head used to look at first 10 lines of file; can control line count by using -n flag
+head /var/log/syslog
+
+
+# tail is the last 10 lines of a file; use -f to real-time monitor file selected. Useful for debugging real time
+tail -f /var/log/syslog
