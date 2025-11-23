@@ -70,3 +70,6 @@ grep -f patterns.txt sampl.txt
 
 # Power full utilzie by combining grep with other commands. Example below outputs line that has User in it regardless of case sensitivity
 env | grep -i User
+
+# Specific pattern to match
+ls /somedir | grep '.txt$'
