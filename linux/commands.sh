@@ -44,3 +44,7 @@ head /var/log/syslog
 
 # tail is the last 10 lines of a file; use -f to real-time monitor file selected. Useful for debugging real time
 tail -f /var/log/syslog
+
+
+# join to combine files if needed - can also identify specific fields to join rows by
+join file1.txt file2.txt
