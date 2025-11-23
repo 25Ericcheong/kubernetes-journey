@@ -1,0 +1,2 @@
+ls: cannot access '/directory/no-exist': No such file or directory
+test-echo.txt

@@ -1,0 +1,6 @@
+commands.sh
+directories.txt
+error-log.txt
+redirect-test-echo.txt
+test-echo-and-error-log.txt
+test-echo.txt
