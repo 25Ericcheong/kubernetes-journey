@@ -30,3 +30,9 @@ ls | tee saved.txt
 # Combination of pipe and tee. Example is pipe to tee
 # Lists content in /etc, pipes output to tee and saves into file and finally output from tee is then piped to grep for filtering
 ls -la /etc | tee etc_listing.txt | grep "conf"
+
+
+# paste  command used to merge lines together
+# Command used to format content and merges each content line with delimiter ' ' and outputs to command line
+# Similar to cat
+paste -d ' ' -s sample.txt
