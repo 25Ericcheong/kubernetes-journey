@@ -48,3 +48,25 @@ tail -f /var/log/syslog
 
 # join to combine files if needed - can also identify specific fields to join rows by
 join file1.txt file2.txt
+
+
+# Translate or convert text to characters we define. Example removes all digits in output piped to translate command
+echo "My address is 123 Main Street" | tr -d '0-9'
+
+
+# uniq only works to detect duplicated content lines that are adjacent to one and the other. To combat this, have to sort content and pipe that into uniq command as shown below
+sort reading.txt | uniq
+
+
+# grep most essential text-processing tool. Example below finds and ouputs any text containing "b" in file 
+grep b duplciated-content.txt
+
+# -i to ensure search is case-insensitive
+# -c to output number of lines match pattern instead of showing results
+# -o only see exact part of lines that matches
+
+# Use patterns from a file and match against another file
+grep -f patterns.txt sampl.txt
+
+# Power full utilzie by combining grep with other commands. Example below outputs line that has User in it regardless of case sensitivity
+env | grep -i User
