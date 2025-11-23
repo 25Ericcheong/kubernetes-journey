@@ -7,5 +7,7 @@ My journey to learning Kubernetes. The end goal is to deploy and maintain Kubern
 - Docker
 - Networking 
   - [Networking Essentials](https://www.youtube.com/watch?v=SHkbPm1Wrno) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Networking-Essential-Notes)
-  - [Kubernetes Networking](https://www.youtube.com/watch?v=J8jAzqbXxjE)
+  - [Kubernetes Networking](https://www.youtube.com/watch?v=J8jAzqbXxjE) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Kubernetes-Networking)
+     - [CNCF](https://www.youtube.com/watch?v=Mj04QOqAaJ8)
+     - [Mischa van den Burg ](https://www.youtube.com/watch?v=J8jAzqbXxjE)
 - Kubernetes
