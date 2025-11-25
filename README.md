@@ -14,6 +14,7 @@ My journey to learning Kubernetes. The end goal is to deploy and maintain Kubern
      - [CNCF](https://www.youtube.com/watch?v=Mj04QOqAaJ8)
      - [Mischa van den Burg ](https://www.youtube.com/watch?v=J8jAzqbXxjE)
 - Kubernetes
+  - [Kubernetes Tutorial](https://kubernetes.io/docs/tutorials/)  
 - Infrastructure as Code (IaC)
   - [Terraform for Beginners](https://github.com/groda/big_data/blob/master/terraform_for_beginners.md)
   
