@@ -16,7 +16,7 @@ My journey to learning Kubernetes. The end goal is to deploy and maintain Kubern
      - [Deploying first App with Kubernetes](https://www.youtube.com/watch?v=XltFOyGanYE&t=15s)
 - Kubernetes
   - [Kubernetes Tutorial](https://kubernetes.io/docs/tutorials/)
-  - [Kubernetes Beginner](https://www.youtube.com/watch?v=MTHGoGUFpvE)
+  - [Kubernetes Beginner](https://www.youtube.com/watch?v=MTHGoGUFpvE) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Kubernetes-Beginners-Video)
 - Infrastructure as Code (IaC)
   - [Terraform for Beginners](https://github.com/groda/big_data/blob/master/terraform_for_beginners.md)
   
