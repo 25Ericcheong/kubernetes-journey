@@ -14,7 +14,6 @@
   - [Kubernetes Networking](https://www.youtube.com/watch?v=J8jAzqbXxjE) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Kubernetes-Networking)
      - [CNCF](https://www.youtube.com/watch?v=Mj04QOqAaJ8)
      - [Mischa van den Burg ](https://www.youtube.com/watch?v=J8jAzqbXxjE)
-     - [Deploying first App with Kubernetes](https://www.youtube.com/watch?v=XltFOyGanYE&t=15s)
 - Kubernetes
   - [Kubernetes Tutorial](https://kubernetes.io/docs/tutorials/)
   - [Kubernetes Beginner](https://www.youtube.com/watch?v=MTHGoGUFpvE) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Kubernetes-Beginners-Video)
