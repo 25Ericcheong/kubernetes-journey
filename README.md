@@ -10,7 +10,6 @@
    - [Linux Shells](https://linuxvox.com/linux-tutorial/best-shell-for-linux/)
 - Docker
   - [Dockers for Beginnners](https://github.com/groda/big_data/blob/master/docker_for_beginners.md)
-  - [Docker on AWS](https://docker-curriculum.com/#next-steps)
   - [Docker workshop on Docker Docs](https://docs.docker.com/get-started/workshop/)
 - Networking 
   - [Networking Essentials](https://www.youtube.com/watch?v=SHkbPm1Wrno) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Networking-Essential-Notes)
