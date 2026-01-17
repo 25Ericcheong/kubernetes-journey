@@ -4,7 +4,10 @@
 
 ## Topics
 - Linux
-   - [Linux Journey](https://labex.io/linuxjourney) 
+   - [Linux Journey](https://labex.io/linuxjourney)
+   - [Linux Snapshots](https://linuxvox.com/blog/how-to-take-snapshot-in-linux/)
+   - [Linux Environments](https://linuxvox.com/linux-tutorial/what-is-linux/#server-environment)
+   - [Linux Shells](https://linuxvox.com/linux-tutorial/best-shell-for-linux/)
 - Docker
   - [Dockers for Beginnners](https://github.com/groda/big_data/blob/master/docker_for_beginners.md)
   - [Docker on AWS](https://docker-curriculum.com/#next-steps)
