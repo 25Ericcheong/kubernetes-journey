@@ -30,3 +30,5 @@
 - Terraform
 - Prometheus
 - Grafana
+- Ansible
+- Tailscale
