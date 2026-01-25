@@ -24,6 +24,21 @@
 - Infrastructure as Code (IaC)
   - [Terraform for Beginners](https://github.com/groda/big_data/blob/master/terraform_for_beginners.md)
 
+## Tools
+- K3s
+- ArgoCD
+- Let's Encrypt
+- Terraform
+- Prometheus
+- Grafana
+- Ansible
+- Tailscale
+- OPNsense
+
+## Other Journeys
+- [An over-engineered Home Lab with Docker and Kubernetes](https://fernandocejas.com/blog/engineering/2023-01-06-over-engineered-home-lab-docker-kubernetes/)
+- [Kubernetes Homelab Series](https://blog.devops.dev/kubernetes-homelab-series-part-1-how-i-built-my-kubernetes-cluster-from-scratch-ce809aa1bdc1)
+
 ## Kubernetes on Proxmox or Bare Metal?
 - [Bare Metal or VMs - On Prem Kubernetes](https://www.reddit.com/r/kubernetes/comments/1ibumku/bare_metal_or_vms_on_prem_kubernetes/) - 01/2025
   - Less complexity with bare but flexible with VMs
@@ -51,19 +66,9 @@
   - Proxmox for infra (VMs for services like NAS, Home Assistant, etc.) and Kubernetes inside it when I need containers at scale
   - Not everything runs in a container and need a test space.
 - [Kubernetes cluster – on Proxmox or no?](https://www.reddit.com/r/homelab/comments/1pzv69d/kubernetes_cluster_on_proxmox_or_no/) - 01/2026
-  -  
-
-## Tools
-- K3s
-- ArgoCD
-- Let's Encrypt
-- Terraform
-- Prometheus
-- Grafana
-- Ansible
-- Tailscale
-- OPNsense
-
-## Other Journeys
-- [An over-engineered Home Lab with Docker and Kubernetes](https://fernandocejas.com/blog/engineering/2023-01-06-over-engineered-home-lab-docker-kubernetes/)
-- [Kubernetes Homelab Series](https://blog.devops.dev/kubernetes-homelab-series-part-1-how-i-built-my-kubernetes-cluster-from-scratch-ce809aa1bdc1)
+  - Why multi node cluster? It won't improve performance of the pods, but if you want to learn how to manage a larger K8 cluster then doing VMs is a great way to do that
+  - Can create as many VMs as you can fit on the machines' hardware. The GPU can only be allocated to one VM, though
+- [Bare Metal K8S vs VM-Based Clusters](https://www.reddit.com/r/kubernetes/comments/1b82w9n/bare_metal_k8s_vs_vmbased_clusters/) - 01/2024
+  - Don’t underestimate the benefits of being able to split your bare metal machines up into smaller nodes
+  - Containers do not provide anywhere near the isolation level VMs do
+  - The real summary boils down to how you want to divide your resources and separate your management concerns
