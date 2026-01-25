@@ -23,7 +23,36 @@
   - [Kubernetes Beginner](https://www.youtube.com/watch?v=MTHGoGUFpvE) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Kubernetes-Beginners-Video)
 - Infrastructure as Code (IaC)
   - [Terraform for Beginners](https://github.com/groda/big_data/blob/master/terraform_for_beginners.md)
-  
+
+## Kubernetes on Proxmox or Bare Metal?
+- [Bare Metal or VMs - On Prem Kubernetes](https://www.reddit.com/r/kubernetes/comments/1ibumku/bare_metal_or_vms_on_prem_kubernetes/) - 01/2025
+  - Less complexity with bare but flexible with VMs
+- [Proxmox vs Kubernetes for cluster](https://www.reddit.com/r/homelab/comments/1faqgs4/proxmox_vs_kubernetes_for_cluster/) - 01/2025
+  - Proxmox with a Kubernetes cluster. Can have fail over redundancy for the cluster in a cluster
+  - Proxmox on the hosts. Create a virtual machine on each host, install Kubernetes (I suggest rancher), use as needed
+  - Proxmox then terraform to create your k8s cluster on top. Everything is ephemeral except your K8s persistent volumes (served via network storage from a NAS VM)
+- [K8s on Proxmox or Bare Metal to prioritize learning and automation?](https://www.reddit.com/r/kubernetes/comments/1p9ck9w/k8s_on_proxmox_or_bare_metal_to_prioritize/) - 11/2025
+  - Can "simulate" what cloud providers do in the background, i.e tearing down/spinning up VMs that run K8s clusters, other services, etc.
+  - Bare metal - don't need a hypervisor running. Only K8s
+- [Baremetal or Proxmox](https://www.reddit.com/r/kubernetes/comments/1m8unku/baremetal_or_proxmox/) - 06/2025
+  - Do you have three or more computers? Talos.
+  - Do you have only one or two computers? Proxmox and then use Cluster API to provision your clusters.
+  - Proxmox features: snapshots, zfs, ceph, backup
+- [Not sure whether to use Promox or baremetal](https://www.reddit.com/r/homelab/comments/1feefrv/not_sure_whether_to_use_proxmox_or_go_bare_metal/) - 01/2025
+  - Proxmox. [Cluster with shared storage](https://www.starwindsoftware.com/resource-library/starwind-virtual-san-vsan-configuration-guide-for-proxmox-vsan-deployed-as-a-controller-virtual-machine-cvm/)
+  - Ubuntu on bare metal. Need a VM, use Ansible to spin up a KVM instance. Data sits in ZFS mirrors so it makes it really easy to do a complete rebuild without data loss. If you like using a UI, go for Proxmox
+- [Why proxmox over kubernetes and vice versa?](https://www.reddit.com/r/homelab/comments/1l63poj/why_proxmox_over_kubernetes_and_vice_versa/) - 05/2025
+  - Different purposes. Use Proxmox to create VMs for K8s workloads.
+  - K8s within Proxmox VMs. Embedded tools that are difficult to containerize cause need actual hardware. Setting up separate VMs for those is fantastic, and the K8s workloads get handled separately
+- [VMs on Kubernetes. Does it make sense or are KubeVirt and friends missing the point? Real-World Opinions Please!](https://www.reddit.com/r/kubernetes/comments/1n1glwe/vms_on_kubernetes_does_it_make_sense_or_are/) - 08/2025
+  - Consolidating separate orchestrators for containers and VMs to be handled instead by Kubernetes, leveraging the same CI/CD (DevOps) tooling
+- [Proxmox/virtualization vs Kubernetes for Homelab?](https://www.reddit.com/r/homelab/comments/1iv97zg/proxmoxvirtualization_vs_kubernetes_for_homelab/) - 01/2025
+  - Proxmox is simple for homelab. Full VM isolation, easy snapshots, native ZFS, and less overhead compared to managing a K8s cluster for everything
+  - Proxmox for infra (VMs for services like NAS, Home Assistant, etc.) and Kubernetes inside it when I need containers at scale
+  - Not everything runs in a container and need a test space.
+- [Kubernetes cluster – on Proxmox or no?](https://www.reddit.com/r/homelab/comments/1pzv69d/kubernetes_cluster_on_proxmox_or_no/) - 01/2026
+  -  
+
 ## Tools
 - K3s
 - ArgoCD
