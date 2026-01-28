@@ -12,7 +12,7 @@
   - [Dockers for Beginnners](https://github.com/groda/big_data/blob/master/docker_for_beginners.md) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Docker-for-Beginners-(Big-Data))
   - [Docker Docs](https://docs.docker.com/get-started/)
      - [Docker Images](https://docs.docker.com/get-started/docker-concepts/building-images/understanding-image-layers/) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Docker-Images)
-     - Dockerfile
+     - [Dockerfile](https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Dockerfile)
 - Networking 
   - [Networking Essentials](https://www.youtube.com/watch?v=SHkbPm1Wrno) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Networking-Essential-Notes)
   - [Kubernetes Networking](https://www.youtube.com/watch?v=J8jAzqbXxjE) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Kubernetes-Networking)
