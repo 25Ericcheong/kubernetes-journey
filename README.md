@@ -35,6 +35,7 @@
 - Ansible
 - Tailscale
 - OPNsense
+- Proxmox (TBC)
 
 ## Other Journeys
 - [An over-engineered Home Lab with Docker and Kubernetes](https://fernandocejas.com/blog/engineering/2023-01-06-over-engineered-home-lab-docker-kubernetes/)
