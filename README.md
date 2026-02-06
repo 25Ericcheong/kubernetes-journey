@@ -24,6 +24,10 @@
   - [Kubernetes Beginner](https://www.youtube.com/watch?v=MTHGoGUFpvE) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Kubernetes-Beginners-Video)
 - Infrastructure as Code (IaC)
   - [Terraform for Beginners](https://github.com/groda/big_data/blob/master/terraform_for_beginners.md)
+- Homelab
+  - Coax to ethernet device
+  - Deco mesh WiFi
+  - Switch 
 
 ## Tools
 - K3s
