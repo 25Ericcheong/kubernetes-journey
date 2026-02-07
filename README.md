@@ -1,5 +1,5 @@
 # Kubernetes Journey
-- My journey to learning Kubernetes. The end goal is to deploy and maintain Kubernetes clusters at home - I plan on using old machines (2 laptops and a mini PC) at home; to repurpose these machines to servers and maintain them. To best use Kubernetes, I need to solidify my foundations on specific topics or concepts. These are listed below (they are not listed in any order).
+- Learning Kubernetes by home labbing. The end goal is to deploy and maintain Kubernetes clusters at home - I plan on using old machines (2 laptops and a mini PC) at home; to repurpose these machines to servers and maintain them. To best use Kubernetes, I need to solidify my foundations on specific topics or concepts. These are listed below (they are not listed in any order).
 - Tools and topics are what I believe I'll need to achieve my goal
 
 ## Topics
@@ -12,7 +12,8 @@
   - [Dockers for Beginnners](https://github.com/groda/big_data/blob/master/docker_for_beginners.md) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Docker-for-Beginners-(Big-Data))
   - [Docker Docs](https://docs.docker.com/get-started/)
      - [Docker Images](https://docs.docker.com/get-started/docker-concepts/building-images/understanding-image-layers/) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Docker-Images)
-     - Dockerfile
+     - [Dockerfile](https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Dockerfile)
+     - [Build, tag & publish Docker Image](https://docs.docker.com/get-started/docker-concepts/building-images/build-tag-and-publish-an-image/) - Notes
 - Networking 
   - [Networking Essentials](https://www.youtube.com/watch?v=SHkbPm1Wrno) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Networking-Essential-Notes)
   - [Kubernetes Networking](https://www.youtube.com/watch?v=J8jAzqbXxjE) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Kubernetes-Networking)
@@ -23,6 +24,10 @@
   - [Kubernetes Beginner](https://www.youtube.com/watch?v=MTHGoGUFpvE) - [Notes](https://github.com/25Ericcheong/kubernetes-journey/wiki/Kubernetes-Beginners-Video)
 - Infrastructure as Code (IaC)
   - [Terraform for Beginners](https://github.com/groda/big_data/blob/master/terraform_for_beginners.md)
+- Homelab
+  - Coax to ethernet device
+  - Deco mesh WiFi
+  - Switch 
 
 ## Tools
 - K3s
@@ -34,6 +39,7 @@
 - Ansible
 - Tailscale
 - OPNsense
+- Proxmox (TBC)
 
 ## Other Journeys
 - [An over-engineered Home Lab with Docker and Kubernetes](https://fernandocejas.com/blog/engineering/2023-01-06-over-engineered-home-lab-docker-kubernetes/)
